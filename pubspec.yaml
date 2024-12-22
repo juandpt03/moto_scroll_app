@@ -1,0 +1,24 @@
+name: moto_scroll_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  custom_lint: ^0.7.0
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_lint: ^2.6.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
